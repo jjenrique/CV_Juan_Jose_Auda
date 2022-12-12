@@ -1,0 +1,108 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+% Set applicant's personal data for header
+\name{\href{http://kikeauda.herokuapp.com/}{Juan José Enrique \linebreak Auda Carrasco}}
+\address{ Ingeniero Civil Electricista}
+\contacts{\href{tel:+56996964945}{+569 9696 4945} \linebreak jjauda@uc.cl \linebreak \href{https://www.linkedin.com/in/jjauda/}{\faLinkedinSquare \ jjauda}\linebreak \href{https://github.com/jjenrique/}{\faGithub \ jjenrique}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Experiencia Laboral}
+		\begin{cvsubsection}{Maestro Mayor Eléctrico}{\mbox{Einex S.A (Echeverria Izquierdo/Nexxo)}}{Febrero 2022 - Agosto 2022}		
+			\begin{itemize}
+				\item Refacción, instalación y conexionado de tableros eléctricos de faena. Mantención eléctrica de herramientas y faena.
+				\item Conexionado de tableros de control, instrumentación, fuerza y PLC.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{\mbox{Ingeniero de desarrollo e integración}}{\href{https://www.srl.cl/empresa/}{SRL}}{Agosto 2020 - Diciembre 2021}	
+			\begin{itemize}
+				\item Despliege de plataforma IoT en AWS para administrar y monitorear 450 routers 3G/4G en buses de \href{https://www.red.cl/}{Red}. 
+				\item Supervisión de equipo de 5 técnicos en la instalación y programación de equipos CCTV y routers 3G/4G en 200 buses de Subus.
+				\item Soporte técnico en terreno de sistemas MDVR y routers 3G/4G para 6 operadores de \href{https://www.red.cl/}{Red}
+				\item Automatización de reportes usando Python y Macros Excel para conocer número de usuarios y tráfico de los routers 3G/4G.
+				\item Desarrollo de capacitación a operadores de Red sobre uso de equipos MDVR instalados en buses.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Práctica Profesional}{South Wind S.A}{Enero 2017 - Marzo 2017}		
+			\begin{itemize}
+				\item Desarrollo de app con Python y la API de OR-Tools de Google para optimización de rutas de reparto.
+				\item Diseño de proceso logístico usando SAP y lectores de códigos de barra.
+			\end{itemize}
+		\end{cvsubsection}
+		
+	\end{cvsection}
+
+	\begin{cvsection}{Certificaciones}
+		\begin{cvsubsection}{}{ }{}
+			\begin{itemize}
+				\item \textbf{\href{https://www.freecodecamp.org/certification/fcc97b8767b-5a07-4487-b743-fd7d5742d505/data-analysis-with-python-v7}{Data Analysis with Python.}} freeCodeCamp.org Diciembre 2022
+				\item \textbf{\href{https://www.coursera.org/learn/aprendiendo-a-aprender}{Aprendiendo a aprender.}} Coursera Febrero 2022
+				\item \textbf{\href{https://www.coursera.org/learn/finanzas-empresariales}{Fundamentos de Finanzas Empresariales.}} Coursera Enero 2022
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Educación}
+		\begin{cvsubsection}{Santiago, Chile}{\mbox{Pontificia Universidad Católica de Chile}}{2012 - 2019}
+			\begin{itemize}
+				\item Ingeniería Civil Electricista, Pontificia Universidad Católica de Chile, 2019.
+				\item Cursos: Electrónica, Telecomunicaciones, Control Automático, Análisis Digital de Señales, Microcontroladores.
+				\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Experiencia Adicional}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Ayudante de curso} Coordinador de curso Análisis de sistemas 2017-2018
+				\item \textbf{Delegado Estudiantil} Delegado DIE UC y miembro rama IEEE.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Técnologías y Conocimiento Técnico}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Matlab/Simulink; Python; OpenCV; C; SQL; HTML/CSS; Arduino; Latex; Git.
+				\item MS Office; Windows; Ofimática.
+				\item Redes Inalambricas, AWS, CCTV.
+				\item Electricidad Industrial, PLC
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
